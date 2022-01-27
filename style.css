@@ -1,0 +1,66 @@
+body{
+  background-color: white;
+}
+form{
+  min-width: 300px;
+  max-width: 799px;
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 10px 20px;
+  border-style: outset;
+  border-radius: 6px;
+  background-color: rgb(221, 221, 221);
+}
+.group legend{
+  padding:0;
+  opacity: 0;
+}
+label{
+  align-self: center;
+  flex: 1;
+  font-size: 15px;
+}
+input, textarea{
+  flex: 4;
+  font-size: 14px;
+  padding: 5px 8px;
+  text-align: left;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style:inset;
+}
+.name, .address, .message{
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+button{
+  font-family: inherit;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(51, 51, 51);
+  padding: 4px 8px;
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 50px;
+}
+#send{
+  background: rgba(165, 206, 165, 0.842); 
+}
+#clear{
+  float: right;
+  background: rgb(226, 226, 203); 
+}
+textarea::placeholder{
+  font-family: monospace;
+  color: rgba(34, 34, 34, 0.712);
+  padding: 2px 5px;
+  text-align: left;
+}
+hl{
+  opacity: 0;
+  margin: 7px 0;
+}
