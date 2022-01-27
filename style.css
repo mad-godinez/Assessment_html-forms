@@ -21,9 +21,10 @@ form{
   opacity: 0;
 }
 label{
+  text-align: right;
   align-self: center;
-  flex: 1;
   font-size: 15px;
+  margin-right: 20px;
 }
 input, textarea{
   flex: 4;
